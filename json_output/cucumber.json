@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4164488100,
+              "duration": 4335858200,
               "status": "passed"
             },
             "line": 5,
@@ -33,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3672920600,
+              "duration": 3795544900,
               "status": "passed"
             },
             "line": 10,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 38914600,
+              "duration": 65153600,
               "status": "passed"
             },
             "line": 13,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 521001600,
+              "duration": 618042900,
               "status": "passed"
             },
             "line": 14,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 5382600,
+              "duration": 7635900,
               "status": "passed"
             },
             "line": 15,
@@ -95,24 +95,336 @@
           },
           {
             "result": {
-              "duration": 1101112700,
+              "duration": 1324116200,
               "status": "passed"
             },
             "line": 16,
-            "name": "user can fill up from entring \"bankAndCach\"and \"khaoihhc\"and \"2000\" and \"983869813\" and \"Tom\" and \"1112223333\" and \"www.xyz.com\" and submit button",
+            "name": "user can fill up from entring \"abcd\"and \"khaoihhc\"and \"2000\" and \"983869813\" and \"Tom\" and \"1112223333\" and \"www.xyz\" and submit button",
             "match": {
               "arguments": [
                 {
-                  "val": "bankAndCach",
+                  "val": "abcd",
                   "offset": 31
                 },
                 {
                   "val": "khaoihhc",
-                  "offset": 48
+                  "offset": 41
                 },
                 {
                   "val": "2000",
-                  "offset": 62
+                  "offset": 55
+                },
+                {
+                  "val": "983869813",
+                  "offset": 66
+                },
+                {
+                  "val": "Tom",
+                  "offset": 82
+                },
+                {
+                  "val": "1112223333",
+                  "offset": 92
+                },
+                {
+                  "val": "www.xyz",
+                  "offset": 109
+                }
+              ],
+              "location": "LoginStepDefination.user_can_fill_up_from_entring_and_and_and_and_and_and_and_submit_button(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 811133200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should be able to see validate",
+            "match": {
+              "location": "LoginStepDefination.user_should_be_able_to_see_validate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3340958000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "user should be able to login with valid credentials and open new account",
+        "description": "",
+        "id": "techfios-bank-and-cash-new--account-functionality;user-should-be-able-to-login-with-valid-credentials-and-open-new-account;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3968838500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the\" demo@techfios.com\"and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " demo@techfios.com",
+                  "offset": 15
+                },
+                {
+                  "val": "abc123",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45229600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on bank and cash button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_bank_and_cash_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 570543300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on new account button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_new_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5106900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user shoud be on account page",
+            "match": {
+              "location": "LoginStepDefination.user_shoud_be_on_account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1577504400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user can fill up from entring \"\"and \"khax\"and \"oihhc\" and \"20054\" and \"983869813\" and \"Tom\" and \"1112223333\" and submit button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 31
+                },
+                {
+                  "val": "khax",
+                  "offset": 37
+                },
+                {
+                  "val": "oihhc",
+                  "offset": 47
+                },
+                {
+                  "val": "20054",
+                  "offset": 59
+                },
+                {
+                  "val": "983869813",
+                  "offset": 71
+                },
+                {
+                  "val": "Tom",
+                  "offset": 87
+                },
+                {
+                  "val": "1112223333",
+                  "offset": 97
+                }
+              ],
+              "location": "LoginStepDefination.user_can_fill_up_from_entring_and_and_and_and_and_and_and_submit_button(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 926220700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should be able to see validate",
+            "match": {
+              "location": "LoginStepDefination.user_should_be_able_to_see_validate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3355833500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "user should be able to login with valid credentials and open new account",
+        "description": "",
+        "id": "techfios-bank-and-cash-new--account-functionality;user-should-be-able-to-login-with-valid-credentials-and-open-new-account;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3728229900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the\" demo@techfios.com\"and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " demo@techfios.com",
+                  "offset": 15
+                },
+                {
+                  "val": "abc123",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54090600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on bank and cash button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_bank_and_cash_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 583689600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on new account button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_new_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4623700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user shoud be on account page",
+            "match": {
+              "location": "LoginStepDefination.user_shoud_be_on_account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1481948300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user can fill up from entring \"agjre\"and \"kveveoihtbrbc\"and \"20250\" and \"983869813\" and \"Tom\" and \"1112223333\" and \"www.xyz\" and submit button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "agjre",
+                  "offset": 31
+                },
+                {
+                  "val": "kveveoihtbrbc",
+                  "offset": 42
+                },
+                {
+                  "val": "20250",
+                  "offset": 61
                 },
                 {
                   "val": "983869813",
@@ -127,7 +439,7 @@
                   "offset": 99
                 },
                 {
-                  "val": "www.xyz.com",
+                  "val": "www.xyz",
                   "offset": 116
                 }
               ],
@@ -146,7 +458,319 @@
           },
           {
             "result": {
-              "duration": 58474000,
+              "duration": 842360200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should be able to see validate",
+            "match": {
+              "location": "LoginStepDefination.user_should_be_able_to_see_validate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3304617000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "user should be able to login with valid credentials and open new account",
+        "description": "",
+        "id": "techfios-bank-and-cash-new--account-functionality;user-should-be-able-to-login-with-valid-credentials-and-open-new-account;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3709439100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the\" demo@techfios.com\"and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " demo@techfios.com",
+                  "offset": 15
+                },
+                {
+                  "val": "abc123",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62220400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on bank and cash button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_bank_and_cash_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 645453100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on new account button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_new_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3995800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user shoud be on account page",
+            "match": {
+              "location": "LoginStepDefination.user_shoud_be_on_account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1452039700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user can fill up from entring \"abcgwt\"and \"khaoibwrtbhc\"and \"200520\" and \"983869813\" and \"Tom\" and \"1112223333\" and \"www.xyz\" and submit button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcgwt",
+                  "offset": 31
+                },
+                {
+                  "val": "khaoibwrtbhc",
+                  "offset": 43
+                },
+                {
+                  "val": "200520",
+                  "offset": 61
+                },
+                {
+                  "val": "983869813",
+                  "offset": 74
+                },
+                {
+                  "val": "Tom",
+                  "offset": 90
+                },
+                {
+                  "val": "1112223333",
+                  "offset": 100
+                },
+                {
+                  "val": "www.xyz",
+                  "offset": 117
+                }
+              ],
+              "location": "LoginStepDefination.user_can_fill_up_from_entring_and_and_and_and_and_and_and_submit_button(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 798943200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should be able to see validate",
+            "match": {
+              "location": "LoginStepDefination.user_should_be_able_to_see_validate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3325320100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "user should be able to login with valid credentials and open new account",
+        "description": "",
+        "id": "techfios-bank-and-cash-new--account-functionality;user-should-be-able-to-login-with-valid-credentials-and-open-new-account;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5150564800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the\" demo@techfios.com\"and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " demo@techfios.com",
+                  "offset": 15
+                },
+                {
+                  "val": "abc123",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38847900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on bank and cash button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_bank_and_cash_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 551035400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on new account button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_new_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4593700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user shoud be on account page",
+            "match": {
+              "location": "LoginStepDefination.user_shoud_be_on_account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1247725000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user can fill up from entring \"abctbgwr\"and \"khaoirtbhc\"and \"200250\" and \"983869813\" and \"Tom\" and \"1112223333\" and \"www.xyz\" and submit button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abctbgwr",
+                  "offset": 31
+                },
+                {
+                  "val": "khaoirtbhc",
+                  "offset": 45
+                },
+                {
+                  "val": "200250",
+                  "offset": 61
+                },
+                {
+                  "val": "983869813",
+                  "offset": 74
+                },
+                {
+                  "val": "Tom",
+                  "offset": 90
+                },
+                {
+                  "val": "1112223333",
+                  "offset": 100
+                },
+                {
+                  "val": "www.xyz",
+                  "offset": 117
+                }
+              ],
+              "location": "LoginStepDefination.user_can_fill_up_from_entring_and_and_and_and_and_and_and_submit_button(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 778033200,
               "status": "passed"
             },
             "line": 18,
@@ -163,6 +787,6 @@
     "description": "",
     "id": "techfios-bank-and-cash-new--account-functionality",
     "keyword": "Feature",
-    "uri": "C:/Users/jatin/eclipse-workspace/CRM_BBDframWork/src/test/java/feature/Login.Feature"
+    "uri": "C:/Users/jatin/eclipse-workspace/TechFios_BBDframWork/src/test/java/features/Login.Feature"
   }
 ]

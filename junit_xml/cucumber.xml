@@ -1,12 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.562294">
-<testcase classname="TechFios bank and cash new  account functionality" name="user should be able to login with valid credentials and open new account" time="9.562294">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="52.51549">
+<testcase classname="TechFios bank and cash new  account functionality" name="user should be able to login with valid credentials and open new account" time="10.957485">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When user enter the" demo@techfios.com"and "abc123".........................passed
 When user click on bank and cash button.....................................passed
 And user click on new account button........................................passed
 Then user shoud be on account page..........................................passed
-And user can fill up from entring "bankAndCach"and "khaoihhc"and "2000" and "983869813" and "Tom" and "1112223333" and "www.xyz.com" and submit button.passed
+And user can fill up from entring "abcd"and "khaoihhc"and "2000" and "983869813" and "Tom" and "1112223333" and "www.xyz" and submit button.passed
+Then user should be able to see validate....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TechFios bank and cash new  account functionality" name="user should be able to login with valid credentials and open new account 2" time="10.434401">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user enter the" demo@techfios.com"and "abc123".........................passed
+When user click on bank and cash button.....................................passed
+And user click on new account button........................................passed
+Then user shoud be on account page..........................................passed
+And user can fill up from entring ""and "khax"and "oihhc" and "20054" and "983869813" and "Tom" and "1112223333" and submit button.passed
+Then user should be able to see validate....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TechFios bank and cash new  account functionality" name="user should be able to login with valid credentials and open new account 3" time="10.050776">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user enter the" demo@techfios.com"and "abc123".........................passed
+When user click on bank and cash button.....................................passed
+And user click on new account button........................................passed
+Then user shoud be on account page..........................................passed
+And user can fill up from entring "agjre"and "kveveoihtbrbc"and "20250" and "983869813" and "Tom" and "1112223333" and "www.xyz" and submit button.passed
+Then user should be able to see validate....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TechFios bank and cash new  account functionality" name="user should be able to login with valid credentials and open new account 4" time="9.976708">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user enter the" demo@techfios.com"and "abc123".........................passed
+When user click on bank and cash button.....................................passed
+And user click on new account button........................................passed
+Then user shoud be on account page..........................................passed
+And user can fill up from entring "abcgwt"and "khaoibwrtbhc"and "200520" and "983869813" and "Tom" and "1112223333" and "www.xyz" and submit button.passed
+Then user should be able to see validate....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TechFios bank and cash new  account functionality" name="user should be able to login with valid credentials and open new account 5" time="11.09612">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user enter the" demo@techfios.com"and "abc123".........................passed
+When user click on bank and cash button.....................................passed
+And user click on new account button........................................passed
+Then user shoud be on account page..........................................passed
+And user can fill up from entring "abctbgwr"and "khaoirtbhc"and "200250" and "983869813" and "Tom" and "1112223333" and "www.xyz" and submit button.passed
 Then user should be able to see validate....................................passed
 ]]></system-out>
 </testcase>

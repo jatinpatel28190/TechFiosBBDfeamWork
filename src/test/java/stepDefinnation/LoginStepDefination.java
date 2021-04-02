@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
+import com.qa.Utility.TestUtility;
 import com.qa.baseClass.BaseClass;
 
 import cucumber.api.java.en.Given;
@@ -68,6 +69,7 @@ public class LoginStepDefination {
 	public void user_should_be_able_to_see_validate() {
 
 		Assert.assertTrue(CreatNewAccountPage.verifyCreatAccountMasseage());
-
+		TestUtility TestUtility = new TestUtility();
+		TestUtility.tearDown();
 	}
 }

@@ -19,5 +19,7 @@ Then user should be able to see validate
 Examples:
 |userName|password|accountTitle|decscription|intitialBalance|accountNumber|contectPerson|phoneNumber|internetBankingUrl|
 |demo@techfios.com|abc123|abcd|khaoihhc|2000|983869813|Tom|1112223333|www.xyz|
-
-
+|demo@techfios.com|abc123||khax|oihhc|20054|983869813|Tom|1112223333|www.xyz|
+|demo@techfios.com|abc123|agjre|kveveoihtbrbc|20250|983869813|Tom|1112223333|www.xyz|
+|demo@techfios.com|abc123|abcgwt|khaoibwrtbhc|200520|983869813|Tom|1112223333|www.xyz|
+|demo@techfios.com|abc123|abctbgwr|khaoirtbhc|200250|983869813|Tom|1112223333|www.xyz|
