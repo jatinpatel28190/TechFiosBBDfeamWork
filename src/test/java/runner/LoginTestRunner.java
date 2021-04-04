@@ -9,7 +9,9 @@ import cucumber.api.junit.Cucumber;
 
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
-			features = "C:\\Users\\jatin\\eclipse-workspace\\TechFios_BBDframWork\\src\\test\\java\\features\\Login.Feature", //the path of the feature files
+			
+			features="classpath:features",// path for feature folder
+			tags = "@login",
 			glue= "stepDefinnation",//the path of the step definition files.or you can wite class name 
 			plugin= {"pretty","html:test-outout", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"}, //to generate different types of reporting
 			monochrome = true, //display the console output in a proper readable format
