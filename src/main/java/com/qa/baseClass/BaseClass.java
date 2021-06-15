@@ -9,6 +9,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class BaseClass {
+	// github update
+	
 			public static WebDriver driver;
 			public void Initialization() {
 				String browser = "Chrome";
